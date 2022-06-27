@@ -22,7 +22,7 @@ foreach ($User in $ADUsers) {
         #Account will be created in the OU listed in the $OU variable in the CSV file
         New-ADUser `
             -SamAccountName $Username `
-            -UserPrincipalName "$Username@yourdomain.com" `
+            -UserPrincipalName "$Username@stpiusx.org" `
             -Name "$Firstname $Lastname" `
             -GivenName $Firstname `
             -Surname $Lastname `
